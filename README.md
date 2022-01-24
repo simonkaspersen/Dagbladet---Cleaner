@@ -6,6 +6,8 @@
 
   <p align="center">
     Install this little extention into chrome, and **BOOM**, it doesn't look like a clown freakshow
-    <br />
+    <br /><br /><br /><br />
+    <img src="icons/wefwefwefw.png" alt="Logo2" width="500">
   </p>
+
 </div>
