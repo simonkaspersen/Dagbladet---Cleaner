@@ -49,7 +49,7 @@ var readyStateCheckInterval = setInterval(function() {
 }); */
 
 const removeStuff = () => {
-	var forbiddenClassnames=['.bg-red', '.bg-black', '.bg-yellow', '.breaking--just-now', '.breaking', '.just-now', '.breaking--pulsating-dots', '.pulsating-dots'];
+	var forbiddenClassnames=['.bg-red', '.bg-black', '.bg-yellow', '.breaking--just-now', '.breaking', '.just-now', '.breaking--pulsating-dots', '.pulsating-dots', '.breaking--pulse-kicker'];
 
 	for(className of forbiddenClassnames) {
 		var elements = document.querySelectorAll(className)
