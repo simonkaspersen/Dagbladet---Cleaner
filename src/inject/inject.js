@@ -59,9 +59,9 @@ const removeStuff = () => {
 		}
 	}
 
-	var allLinks = document.querySelectorAll('a')
+	/* var allLinks = document.querySelectorAll('a')
 	for (const link of allLinks) {
-		var styles = window.getComputedStyle(link,':before')
-		styles.setProperty('content', "wewefwefwef")
-	}
+		var styles = window.getComputedStyle(link,':before').getPropertyValue('content')
+		
+	} */
 }
