@@ -11,12 +11,12 @@
   },
   "default_locale": "en",
   "host_permissions": [
-    "https://www.dagbladet.no/"
+    "https://*.dagbladet.no/"
   ],
   "content_scripts": [
     {
       "matches": [
-        "https://www.dagbladet.no/"
+        "https://*.dagbladet.no/"
       ],
       "js": [
         "src/inject/inject.js"

@@ -49,7 +49,7 @@ var readyStateCheckInterval = setInterval(function() {
 }); */
 
 const removeStuff = () => {
-	var forbiddenClassnames=['.bg-red', '.bg-black', '.bg-yellow', '.breaking--just-now', '.breaking', '.just-now', '.breaking--pulsating-dots', '.pulsating-dots', '.breaking--pulse-kicker'];
+	var forbiddenClassnames=['.bg-red', '.bg-black', '.bg-yellow', '.breaking--just-now', '.breaking', '.just-now', '.breaking--pulsating-dots', '.pulsating-dots', '.breaking--pulse-kicker', '.bg-black', '.breaking--pulse-background', '.bg-teal', '.bg-cyan', '.bg-orange', '.bg-blue', '.bg-green', '.bg-pink', '.bg-steelblue'];
 
 	for(className of forbiddenClassnames) {
 		var elements = document.querySelectorAll(className)
